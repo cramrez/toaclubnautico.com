@@ -41,7 +41,6 @@ jobs:
         port: ${{ secrets.SSH_PORT }}
         script: |
           cd ${{ secrets.HOST_TARGET }}
-          PHP_BIN="/usr/bin/php8.3" 
-          $PHP_BIN vendor/bin/drush updb -y
-          $PHP_BIN vendor/bin/drush cim -y
-          $PHP_BIN vendor/bin/drush cr
+          vendor/bin/drush updb -y
+          vendor/bin/drush cim -y
+          vendor/bin/drush cr
