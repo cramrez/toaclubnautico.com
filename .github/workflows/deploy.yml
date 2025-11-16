@@ -20,18 +20,26 @@ jobs:
       # Se requiere el build para asegurar que la carpeta /vendor esté lista
     - run: composer install --prefer-dist --no-dev --optimize-autoloader
     
+    - name: 🚀 1. Transferencia de Archivos (SCP)
+      uses: appleboy/scp-action@v0.1.7 # <-- USAR ESTA ACCIÓN PARA ARCHIVOS
+      with:
+        host: ${{ secrets.SSH_HOST }} 
+        username: ${{ secrets.SSH_USERNAME }}
+        key: ${{ secrets.SSH_PRIVATE_KEY }}
+        port: ${{ secrets.SSH_PORT }}
+        source: "." 
+        target: "${{ secrets.HOST_TARGET }}"
+
     # 🚀 Despliegue por SCP y Ejecución de Drush (Control Total)
-    - name: 🚀 SCP and SSH Deploy
+    - name: 🔄 2. Ejecutar Comandos Drush (SSH)
       uses: appleboy/ssh-action@v1.0.3
       with:
         host: ${{ secrets.SSH_HOST }}
         username: ${{ secrets.SSH_USERNAME }}
         key: ${{ secrets.SSH_PRIVATE_KEY }}
         port: ${{ secrets.SSH_PORT }}
-        source: "."
-        target: "${{ secrets.HOST_TARGET }}"
         script: |
           cd ${{ secrets.HOST_TARGET }}
-          drush updb -y
-          drush cim -y
-          drush cr
+          vendor/bin/drush updb -y
+          vendor/bin/drush cim -y
+          vendor/bin/drush cr
