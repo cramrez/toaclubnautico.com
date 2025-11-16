@@ -875,8 +875,12 @@ if (getenv('IS_DDEV_PROJECT') == 'true' && file_exists(__DIR__ . '/settings.ddev
  * Keep this code block at the end of this file to take full effect.
  */
 #
+
+$settings['hash_salt'] = 'qKWVLYq6xdqSTZDDmJKufBdIs6MpRZEWbkiqzSpNFYDUhY7Z3HeXfi28-XOfucR36FDchndV2Q';
+
 if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
   include $app_root . '/' . $site_path . '/settings.local.php';
 }
 
 $settings['config_sync_directory'] = '../config/default';
+
