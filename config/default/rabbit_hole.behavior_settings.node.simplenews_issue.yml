@@ -1,0 +1,13 @@
+uuid: 423ac2ca-f4b9-4bd4-97bd-c500eb91d0db
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.simplenews_issue
+id: node.simplenews_issue
+targetEntityType: node
+bundle: simplenews_issue
+action: page_not_found
+no_bypass: false
+bypass_message: false
+configuration: {  }

@@ -1,0 +1,29 @@
+uuid: 65fe30f3-986b-4252-8e2c-b00706d4c5d7
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - gaviasthemer
+    - system
+  theme:
+    - gavias_kiamo
+third_party_settings:
+  gaviasthemer:
+    classes: ''
+id: mainnavigation
+theme: gavias_kiamo
+region: main_menu
+weight: 0
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: null
+  expand_all_items: false
+visibility: {  }

@@ -1,0 +1,29 @@
+uuid: 5371d20a-2e1c-4776-bb23-d3e4c5a378e2
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:72007261-ae49-47b4-881f-ced68f0650ab'
+  module:
+    - block_content
+    - gaviasthemer
+  theme:
+    - gavias_kiamo
+third_party_settings:
+  gaviasthemer:
+    classes: ''
+id: gavias_kiamo_botonesflotantes
+theme: gavias_kiamo
+region: copyright
+weight: -11
+provider: null
+plugin: 'block_content:72007261-ae49-47b4-881f-ced68f0650ab'
+settings:
+  id: 'block_content:72007261-ae49-47b4-881f-ced68f0650ab'
+  label: 'Botones Flotantes'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

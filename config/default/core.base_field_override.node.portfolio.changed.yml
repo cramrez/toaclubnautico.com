@@ -1,0 +1,18 @@
+uuid: 2abef31c-8e7b-4b2c-bc58-044a0ac28181
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.portfolio
+id: node.portfolio.changed
+field_name: changed
+entity_type: node
+bundle: portfolio
+label: Changed
+description: 'The time that the node was last edited.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

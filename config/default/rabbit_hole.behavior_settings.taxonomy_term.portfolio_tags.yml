@@ -1,0 +1,13 @@
+uuid: 1654211b-b86c-4300-8ee2-813a5cbe064a
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.portfolio_tags
+id: taxonomy_term.portfolio_tags
+targetEntityType: taxonomy_term
+bundle: portfolio_tags
+action: page_not_found
+no_bypass: false
+bypass_message: false
+configuration: {  }

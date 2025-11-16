@@ -1,0 +1,22 @@
+uuid: 7611cded-832c-4079-b02a-4ba9da174417
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - gavias_kiamo
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: gavias_kiamo_help
+theme: gavias_kiamo
+region: help
+weight: -11
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

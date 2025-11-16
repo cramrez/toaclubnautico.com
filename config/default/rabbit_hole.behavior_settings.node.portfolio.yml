@@ -1,0 +1,13 @@
+uuid: 5e29ed71-331b-431f-aaa3-17ff6b1c33d4
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.portfolio
+id: node.portfolio
+targetEntityType: node
+bundle: portfolio
+action: display_page
+no_bypass: false
+bypass_message: false
+configuration: {  }

@@ -1,0 +1,22 @@
+uuid: 26da57b2-52de-4925-b5de-5a44dd7bbc3a
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.team
+id: node.team.status
+field_name: status
+entity_type: node
+bundle: team
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

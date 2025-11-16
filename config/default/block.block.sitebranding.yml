@@ -1,0 +1,27 @@
+uuid: bc0eaf33-02d8-401d-806b-f42107c6ec7a
+langcode: en
+status: true
+dependencies:
+  module:
+    - gaviasthemer
+    - system
+  theme:
+    - gavias_kiamo
+third_party_settings:
+  gaviasthemer:
+    classes: ''
+id: sitebranding
+theme: gavias_kiamo
+region: branding
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: false
+  use_site_slogan: false
+visibility: {  }

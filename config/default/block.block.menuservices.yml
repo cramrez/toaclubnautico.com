@@ -1,0 +1,37 @@
+uuid: e4a1cc09-342e-48cd-ab6f-dab7ce7e16e9
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.menu-services
+  module:
+    - gaviasthemer
+    - node
+    - system
+  theme:
+    - gavias_kiamo
+third_party_settings:
+  gaviasthemer:
+    classes: ''
+id: menuservices
+theme: gavias_kiamo
+region: other
+weight: -1
+provider: null
+plugin: 'system_menu_block:menu-services'
+settings:
+  id: 'system_menu_block:menu-services'
+  label: 'Our Services'
+  label_display: visible
+  provider: system
+  level: 1
+  depth: null
+  expand_all_items: false
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+    bundles:
+      service: service

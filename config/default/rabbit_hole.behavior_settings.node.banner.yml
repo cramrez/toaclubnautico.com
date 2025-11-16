@@ -1,0 +1,13 @@
+uuid: 45fd0e99-5d12-4009-92ad-e76dcfd51002
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.banner
+id: node.banner
+targetEntityType: node
+bundle: banner
+action: page_not_found
+no_bypass: false
+bypass_message: false
+configuration: {  }

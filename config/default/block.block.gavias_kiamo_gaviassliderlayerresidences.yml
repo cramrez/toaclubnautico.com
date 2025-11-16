@@ -1,0 +1,24 @@
+uuid: 392a0561-4e17-4645-b1d4-190de757e8e3
+langcode: en
+status: true
+dependencies:
+  module:
+    - gavias_sliderlayer
+    - gaviasthemer
+  theme:
+    - gavias_kiamo
+third_party_settings:
+  gaviasthemer:
+    classes: ''
+id: gavias_kiamo_gaviassliderlayerresidences
+theme: gavias_kiamo
+region: other
+weight: -8
+provider: null
+plugin: 'gavias_sliderlayer_block:gavias_sliderlayer_block____5'
+settings:
+  id: 'gavias_sliderlayer_block:gavias_sliderlayer_block____5'
+  label: 'Gavias SliderLayer - Residences'
+  label_display: '0'
+  provider: gavias_sliderlayer
+visibility: {  }

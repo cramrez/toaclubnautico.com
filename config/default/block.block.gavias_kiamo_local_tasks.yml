@@ -1,0 +1,22 @@
+uuid: e913a3db-b034-4640-8349-f4c694b4fcef
+langcode: en
+status: true
+dependencies:
+  theme:
+    - gavias_kiamo
+_core:
+  default_config_hash: X9I1OB0W3WlWtrK-CNcg6hNWwa8wficanpH8pYnDZDE
+id: gavias_kiamo_local_tasks
+theme: gavias_kiamo
+region: help
+weight: -9
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: true
+visibility: {  }

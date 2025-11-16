@@ -1,0 +1,23 @@
+features:
+  node_user_picture: 1
+  comment_user_picture: 1
+  comment_user_verification: 1
+  favicon: 1
+logo:
+  use_default: 1
+favicon:
+  use_default: 0
+  path: themes/gavias_kiamo/favicon.png
+  mimetype: image/png
+theme_skin: blue
+enable_customize: '0'
+sticky_menu: '1'
+site_layout: wide
+preloader: '1'
+default_header: header
+footer_fixed: ''
+footer_first_size: '6'
+footer_second_size: '4'
+footer_third_size: '2'
+footer_four_size: '3'
+customize_css: ''

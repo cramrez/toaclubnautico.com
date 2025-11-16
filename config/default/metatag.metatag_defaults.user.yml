@@ -1,0 +1,13 @@
+uuid: f2f909e6-9178-4036-84be-143365139771
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: MvQPTbQx0Vxwy0ordSHyixdZmLCMpvMdLD69dlwkrKc
+id: user
+label: User
+tags:
+  canonical_url: '[user:url]'
+  description: '[site:name]'
+  robots: 'noindex, nofollow, noarchive'
+  title: '[user:display-name] | [site:name]'

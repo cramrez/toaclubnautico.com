@@ -1,0 +1,13 @@
+uuid: c852e749-3863-41a3-8cb0-546085e976b0
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.testimonial
+id: node.testimonial
+targetEntityType: node
+bundle: testimonial
+action: page_not_found
+no_bypass: false
+bypass_message: false
+configuration: {  }

@@ -1,0 +1,13 @@
+uuid: ee155726-8c8e-47e6-9f68-689a9f8329e5
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.team
+id: node.team
+targetEntityType: node
+bundle: team
+action: page_not_found
+no_bypass: false
+bypass_message: false
+configuration: {  }

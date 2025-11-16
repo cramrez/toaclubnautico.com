@@ -1,0 +1,13 @@
+uuid: 26a4a1f0-5d24-4a0d-9099-cd6e1258f73b
+langcode: en
+status: true
+dependencies:
+  module:
+    - user
+id: user.user
+targetEntityType: user
+bundle: user
+action: page_not_found
+no_bypass: false
+bypass_message: false
+configuration: {  }
