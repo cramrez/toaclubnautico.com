@@ -302,3 +302,10 @@ ul.feature-list.text-white > li:after {
 ul.menu.no-bullets > li a:after {
   content: none;
 }
+
+
+@media (max-width: 767px) {
+  .gavias_sliderlayer .btn-slide-white {
+    font-size: 8px !important;
+  }
+}
