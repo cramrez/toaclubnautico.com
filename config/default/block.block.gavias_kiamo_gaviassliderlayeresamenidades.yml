@@ -1,0 +1,24 @@
+uuid: 1508dafb-f15d-49d5-a7ac-8bba6107efb9
+langcode: en
+status: true
+dependencies:
+  module:
+    - gavias_sliderlayer
+    - gaviasthemer
+  theme:
+    - gavias_kiamo
+third_party_settings:
+  gaviasthemer:
+    classes: ''
+id: gavias_kiamo_gaviassliderlayeresamenidades
+theme: gavias_kiamo
+region: other
+weight: 0
+provider: null
+plugin: 'gavias_sliderlayer_block:gavias_sliderlayer_block____7'
+settings:
+  id: 'gavias_sliderlayer_block:gavias_sliderlayer_block____7'
+  label: 'Gavias SliderLayer - ES - Amenidades'
+  label_display: '0'
+  provider: gavias_sliderlayer
+visibility: {  }
