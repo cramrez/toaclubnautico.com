@@ -20,8 +20,8 @@ provider: null
 plugin: 'block_content:e9d6d35f-6a8c-4740-8e3d-370fc367cc52'
 settings:
   id: 'block_content:e9d6d35f-6a8c-4740-8e3d-370fc367cc52'
-  label: RRSS
-  label_display: '0'
+  label: 'Follow us:'
+  label_display: visible
   provider: block_content
   status: true
   info: ''

@@ -20,8 +20,8 @@ provider: null
 plugin: 'block_content:f68ff84d-6af0-4c49-8b85-ae338addc541'
 settings:
   id: 'block_content:f68ff84d-6af0-4c49-8b85-ae338addc541'
-  label: 'Link Footer'
-  label_display: '0'
+  label: 'Additional information:'
+  label_display: visible
   provider: block_content
   status: true
   info: ''

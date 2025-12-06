@@ -1,51 +1,20 @@
 title: Contacto
-description: '<p>Basic email contact webform.</p>'
-elements: |-
+elements: |
   name:
-    '#type': textfield
-    '#title': Name
-    '#title_display': before
-    '#required': true
-    '#default_value': '[current-user:display-name]'
+    '#title': Nombre
   email:
-    '#type': email
-    '#title': Email
-    '#required': true
-    '#default_value': '[current-user:mail]'
+    '#title': Correo
   phone:
-    '#type': webform_telephone
-    '#title': Phone
-    '#required': true
-    '#wrapper_type': container
-    '#wrapper_attributes':
-      class:
-        - toa-phone
-    '#type__access': false
-    '#phone__title_display': before
-    '#ext__access': false
-    '#phone__international_initial_country': US
+    '#title': Teléfono
   message:
-    '#type': textarea
-    '#title': Message
-    '#placeholder': 'How can we help you?'
-    '#test': 'Please ignore this email.'
+    '#title': Mensaje
+    '#placeholder': "¿Cómo podemos ayudarte?\r\n"
   accept:
-    '#type': checkbox
-    '#title': 'I have read and expressly accept the <a href="/terms#privacy">privacy policy</a>.'
-    '#required': true
+    '#title': 'He leído y acepto expresamente la <a href="/terms#privacy">política de privacidad</a>.'
   actions:
-    '#type': webform_actions
-    '#title': 'Submit button(s)'
-    '#states':
-      disabled:
-        ':input[name="accept"]':
-          unchecked: true
-    '#submit__label': 'Send message'
-    '#submit__attributes':
-      class:
-        - btn-theme
+    '#submit__label': 'Enviar mensaje'
 settings:
-  confirmation_message: 'Su mensaje ha sido enviado.'
+  confirmation_message: '<p>Su mensaje ha sido enviado.</p>'
 handlers:
   email_confirmation:
     label: 'Confirmación por correo electrónico'
