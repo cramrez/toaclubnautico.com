@@ -209,11 +209,11 @@ input[disabled].webform-button--submit {
 
 @media (max-width: 768px) {
   .botones-flotantes {
-    top: 50%;
-    bottom: auto;
+    top: auto;
+    bottom: 15px;
     left: auto;
     right: 15px;
-    transform: translateY(-50%);
+    transform: translateY(0%);
   }
   .boton-flotante {
     font-size: 11px;
