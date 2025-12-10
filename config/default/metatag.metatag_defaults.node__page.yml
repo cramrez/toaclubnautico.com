@@ -1,11 +1,9 @@
-uuid: d99f3736-ad97-4148-8be8-9929bbb18cb0
+uuid: 73660442-3ca9-4c3c-912e-d9f3dbf76304
 langcode: en
 status: true
 dependencies: {  }
-_core:
-  default_config_hash: rpwvgyEURXLz_JjgMCrkS1rUv-0k3L79BpO-ReN7fDI
-id: node
-label: Content
+id: node__page
+label: 'Content: Basic page'
 tags:
   canonical_url: '[node:url]'
   description: '[node:summary]'
