@@ -292,6 +292,9 @@ ul.feature-list.normal-text > li {
   font-size: 14px;
   font-weight: normal;
 }
+ul.feature-list > li:after {
+  top: 0;
+}
 
 .footer .footer-center {
   padding-bottom: 0;
