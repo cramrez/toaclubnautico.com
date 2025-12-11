@@ -288,6 +288,10 @@ ul.feature-list.text-white > li:after {
   color: #FFFFFF;
   content: "";
 }
+ul.feature-list.normal-text > li {
+  font-size: 14px;
+  font-weight: normal;
+}
 
 .footer .footer-center {
   padding-bottom: 0;
