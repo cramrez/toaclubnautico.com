@@ -316,3 +316,12 @@ ul.menu.no-bullets > li a:after {
     font-size: 8px !important;
   }
 }
+
+.rs-fullvideo-cover {
+  display: none;
+}
+
+.is-mobile .rs-background-video-layer iframe {
+  visibility: visible !important;
+  opacity: 1 !important;
+}

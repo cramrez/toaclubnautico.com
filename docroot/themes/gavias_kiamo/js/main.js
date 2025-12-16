@@ -505,4 +505,10 @@ jQuery(document).ready(function () {
 
   });
 
+  $(document).ready(function(){
+    if (jQuery.browser.mobile){
+      $('body').addClass('is-mobile');
+    }
+  });
+
 })(jQuery);
