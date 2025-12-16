@@ -326,7 +326,9 @@ function gavias_sliderlayer_layer($vars){
   switch($layer->type){
     case 'text':
       if($layer->link){
-        $vars['content'] =  "<a href=\"{$layer->link}\">{$layer->text}</a>";
+        $regex = '/(?:https?:\/\/)?(?:www\.)?(?:youtube\.com\/(?:embed\/|shorts\/|v\/|watch\?v=)|youtu\.be\/)([a-zA-Z0-9_-]{11})/';
+        $class = (preg_match($regex, $layer->link, $coincidencia)) ? 'popup-video gsc-video-link' : '';
+        $vars['content'] =  "<a class=\"{$class}\" href=\"{$layer->link}\">{$layer->text}</a>";
       }else{
         $vars['content'] = $layer->text;
       }
